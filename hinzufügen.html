@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Absenzen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="hinzufügen.html">Hinzufügen</a></li>
+            <li><a href="stundenplan.html">Stundenplan</a></li>
+		</ul>
+	</nav>
+    <h1>Hinzufügen</h1>
+	<form>
+		<label for="name">Name und Nachname:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="date">Datum:</label>
+		<input type="date" id="date" name="date" required><br>
+
+		<label for="reason">Grund:</label>
+		<textarea id="reason" name="reason" rows="4" cols="50"></textarea><br>
+
+		<label for="certificate">Arztzeugnis:</label>
+		<input type="file" id="certificate" name="certificate"><br>
+
+		<input type="submit" value="Speichern">
+	</form>
+</body>
+</html>
